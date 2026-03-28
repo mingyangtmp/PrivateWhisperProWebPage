@@ -68,31 +68,89 @@
         color: var(--accent);
         text-decoration: none;
       }
+
+      .lang-switch {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 24px;
+        flex-wrap: wrap;
+      }
+
+      .lang-pill {
+        display: inline-flex;
+        align-items: center;
+        min-height: 36px;
+        padding: 0 12px;
+        border: 1px solid rgba(13, 107, 92, 0.18);
+        border-radius: 999px;
+        background: rgba(13, 107, 92, 0.08);
+        font-size: 0.95rem;
+        font-weight: 600;
+      }
+
+      .divider {
+        height: 1px;
+        margin: 36px 0;
+        background: var(--line);
+      }
     </style>
   </head>
   <body>
     <main>
       <article>
-        <h1>PrivateWhisper 支持</h1>
-        <p>如果你在使用 PrivateWhisper 时遇到问题，可以通过下面的方式获取帮助。</p>
+        <div class="lang-switch">
+          <a class="lang-pill" href="#en">English</a>
+          <a class="lang-pill" href="#zh">中文</a>
+          <a class="lang-pill" href="../">Home</a>
+        </div>
 
-        <h2>常见支持范围</h2>
-        <ul>
-          <li>安装与启动问题</li>
-          <li>麦克风权限与文件访问问题</li>
-          <li>模型下载失败或首次准备耗时较长</li>
-          <li>导入、转录、编辑、导出相关问题</li>
-        </ul>
+        <section id="en">
+          <h1>PrivateWhisper Support</h1>
+          <p>If you run into issues while using PrivateWhisper, you can get help through the following channels.</p>
 
-        <h2>联系与反馈</h2>
-        <ul>
-          <li><a href="https://github.com/fandashi18/PrivateWhisper/issues">GitHub Issues</a></li>
-          <li><a href="https://github.com/fandashi18/PrivateWhisper">GitHub 仓库主页</a></li>
-          <li><a href="../">返回首页</a></li>
-        </ul>
+          <h2>Common Support Topics</h2>
+          <ul>
+            <li>Installation and launch issues</li>
+            <li>Microphone permissions and file access issues</li>
+            <li>Model download failures or long first-time setup</li>
+            <li>Import, transcription, editing, and export issues</li>
+          </ul>
 
-        <h2>说明</h2>
-        <p>PrivateWhisper 以本地离线转录为核心路径。首次使用某些模型时，应用可能需要联网下载模型文件，之后会优先使用本地缓存。</p>
+          <h2>Contact and Feedback</h2>
+          <ul>
+            <li><a href="https://github.com/fandashi18/PrivateWhisper/issues">GitHub Issues</a></li>
+            <li><a href="https://github.com/fandashi18/PrivateWhisper">GitHub Repository</a></li>
+            <li><a href="../">Back to Home</a></li>
+          </ul>
+
+          <h2>Notes</h2>
+          <p>PrivateWhisper is built around a local offline transcription workflow. When certain models are used for the first time, the app may need to download model files over the network, and will prefer local cache afterward.</p>
+        </section>
+
+        <div class="divider"></div>
+
+        <section id="zh">
+          <h1>PrivateWhisper 支持</h1>
+          <p>如果你在使用 PrivateWhisper 时遇到问题，可以通过下面的方式获取帮助。</p>
+
+          <h2>常见支持范围</h2>
+          <ul>
+            <li>安装与启动问题</li>
+            <li>麦克风权限与文件访问问题</li>
+            <li>模型下载失败或首次准备耗时较长</li>
+            <li>导入、转录、编辑、导出相关问题</li>
+          </ul>
+
+          <h2>联系与反馈</h2>
+          <ul>
+            <li><a href="https://github.com/fandashi18/PrivateWhisper/issues">GitHub Issues</a></li>
+            <li><a href="https://github.com/fandashi18/PrivateWhisper">GitHub 仓库主页</a></li>
+            <li><a href="../">返回首页</a></li>
+          </ul>
+
+          <h2>说明</h2>
+          <p>PrivateWhisper 以本地离线转录为核心路径。首次使用某些模型时，应用可能需要联网下载模型文件，之后会优先使用本地缓存。</p>
+        </section>
       </article>
     </main>
   </body>
