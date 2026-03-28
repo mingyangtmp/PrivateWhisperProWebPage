@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PrivateWhisper</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f7f5ef;
+        --card: rgba(255, 255, 255, 0.82);
+        --text: #1d2430;
+        --muted: #5d6673;
+        --line: rgba(29, 36, 48, 0.12);
+        --accent: #0d6b5c;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", sans-serif;
+        color: var(--text);
+        background:
+          radial-gradient(circle at top left, rgba(13, 107, 92, 0.12), transparent 30%),
+          radial-gradient(circle at bottom right, rgba(201, 155, 52, 0.12), transparent 35%),
+          var(--bg);
+      }
+
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 56px 20px 80px;
+      }
+
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        padding: 32px;
+        backdrop-filter: blur(12px);
+        box-shadow: 0 24px 80px rgba(19, 27, 37, 0.08);
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-size: clamp(2rem, 4vw, 3.4rem);
+        line-height: 1.05;
+      }
+
+      p {
+        margin: 0 0 16px;
+        line-height: 1.7;
+        color: var(--muted);
+      }
+
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 28px;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 0 16px;
+        border-radius: 999px;
+        border: 1px solid rgba(13, 107, 92, 0.18);
+        background: rgba(13, 107, 92, 0.08);
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <h1>PrivateWhisper</h1>
+        <p>PrivateWhisper 是一款面向 macOS 的本地录音转文字工具，强调离线处理、隐私优先和原生桌面体验。</p>
+        <p>这个站点用于提供应用公开信息，方便用户和审核团队访问支持与隐私说明。</p>
+        <div class="links">
+          <a class="button" href="./privacy-policy/">隐私政策</a>
+          <a class="button" href="./support/">支持页面</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

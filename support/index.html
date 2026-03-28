@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PrivateWhisper 支持</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f7f5ef;
+        --card: rgba(255, 255, 255, 0.88);
+        --text: #1d2430;
+        --muted: #4f5866;
+        --line: rgba(29, 36, 48, 0.12);
+        --accent: #0d6b5c;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", sans-serif;
+        color: var(--text);
+        background:
+          radial-gradient(circle at top left, rgba(13, 107, 92, 0.12), transparent 30%),
+          radial-gradient(circle at bottom right, rgba(201, 155, 52, 0.12), transparent 35%),
+          var(--bg);
+      }
+
+      main {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 40px 20px 72px;
+      }
+
+      article {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        padding: 32px;
+        backdrop-filter: blur(12px);
+        box-shadow: 0 24px 80px rgba(19, 27, 37, 0.08);
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-size: clamp(2rem, 4vw, 3rem);
+      }
+
+      h2 {
+        margin-top: 28px;
+        margin-bottom: 12px;
+        font-size: 1.15rem;
+      }
+
+      p, li {
+        line-height: 1.75;
+        color: var(--muted);
+      }
+
+      ul {
+        padding-left: 22px;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article>
+        <h1>PrivateWhisper 支持</h1>
+        <p>如果你在使用 PrivateWhisper 时遇到问题，可以通过下面的方式获取帮助。</p>
+
+        <h2>常见支持范围</h2>
+        <ul>
+          <li>安装与启动问题</li>
+          <li>麦克风权限与文件访问问题</li>
+          <li>模型下载失败或首次准备耗时较长</li>
+          <li>导入、转录、编辑、导出相关问题</li>
+        </ul>
+
+        <h2>联系与反馈</h2>
+        <ul>
+          <li><a href="https://github.com/fandashi18/PrivateWhisper/issues">GitHub Issues</a></li>
+          <li><a href="https://github.com/fandashi18/PrivateWhisper">GitHub 仓库主页</a></li>
+          <li><a href="../">返回首页</a></li>
+        </ul>
+
+        <h2>说明</h2>
+        <p>PrivateWhisper 以本地离线转录为核心路径。首次使用某些模型时，应用可能需要联网下载模型文件，之后会优先使用本地缓存。</p>
+      </article>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PrivateWhisper Privacy Policy | 隐私政策</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f7f5ef;
+        --card: rgba(255, 255, 255, 0.88);
+        --text: #1d2430;
+        --muted: #4f5866;
+        --line: rgba(29, 36, 48, 0.12);
+        --accent: #0d6b5c;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", sans-serif;
+        color: var(--text);
+        background:
+          radial-gradient(circle at top left, rgba(13, 107, 92, 0.12), transparent 30%),
+          radial-gradient(circle at bottom right, rgba(201, 155, 52, 0.12), transparent 35%),
+          var(--bg);
+      }
+
+      main {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 40px 20px 72px;
+      }
+
+      article {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        padding: 32px;
+        backdrop-filter: blur(12px);
+        box-shadow: 0 24px 80px rgba(19, 27, 37, 0.08);
+      }
+
+      h1, h2 {
+        line-height: 1.2;
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-size: clamp(2rem, 4vw, 3rem);
+      }
+
+      h2 {
+        margin-top: 28px;
+        margin-bottom: 12px;
+        font-size: 1.15rem;
+      }
+
+      p, li {
+        line-height: 1.75;
+        color: var(--muted);
+      }
+
+      ul {
+        padding-left: 22px;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .meta {
+        margin-bottom: 24px;
+      }
+
+      .lang-switch {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 24px;
+        flex-wrap: wrap;
+      }
+
+      .lang-pill {
+        display: inline-flex;
+        align-items: center;
+        min-height: 36px;
+        padding: 0 12px;
+        border: 1px solid rgba(13, 107, 92, 0.18);
+        border-radius: 999px;
+        background: rgba(13, 107, 92, 0.08);
+        font-size: 0.95rem;
+        font-weight: 600;
+      }
+
+      .divider {
+        height: 1px;
+        margin: 36px 0;
+        background: var(--line);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article>
+        <div class="lang-switch">
+          <a class="lang-pill" href="#zh">中文</a>
+          <a class="lang-pill" href="#en">English</a>
+          <a class="lang-pill" href="../">Home</a>
+        </div>
+
+        <section id="zh">
+          <h1>PrivateWhisper 隐私政策</h1>
+          <p class="meta">生效日期：2026-03-28</p>
+
+          <p><strong>PrivateWhisper</strong> 是一款面向 macOS 的本地音频转录应用。我们重视你的隐私，并尽量将音频处理和文字转录保留在你的设备本地完成。</p>
+
+          <h2>1. 我们收集哪些信息</h2>
+          <p>PrivateWhisper 默认不要求你注册账号，也不主动收集你的姓名、手机号、邮箱地址或其他身份信息。</p>
+          <p>应用在你的设备本地处理以下内容：</p>
+          <ul>
+            <li>你选择导入或录制的音频文件</li>
+            <li>应用生成的转录文本</li>
+            <li>你编辑后的文本内容</li>
+            <li>应用运行所需的少量本地设置项，例如选中的模型、语言和显示偏好</li>
+          </ul>
+
+          <h2>2. 这些信息如何被使用</h2>
+          <p>这些信息仅用于提供应用的核心功能，包括录音、导入音频、在本地设备上执行语音转文字、展示和编辑转录结果、导出内容，以及保存你的本地使用偏好和历史记录。</p>
+
+          <h2>3. 数据存储位置</h2>
+          <p>PrivateWhisper 采用本地优先的方式工作。你的音频、转录结果、应用数据库和模型缓存默认保存在你的 Mac 本机存储中，而不是上传到我们的服务器。</p>
+
+          <h2>4. 网络访问说明</h2>
+          <p>PrivateWhisper 可能会在以下场景访问网络：</p>
+          <ul>
+            <li>首次下载或更新语音识别模型文件</li>
+          </ul>
+          <p>除上述与模型获取相关的场景外，应用不会以云端服务为默认处理路径来上传你的录音内容或转录文本。</p>
+          <p>请注意，如果模型文件由第三方分发源提供，相关网络请求可能由对应的服务提供方处理并受其政策约束。</p>
+
+          <h2>5. 麦克风权限</h2>
+          <p>如果你使用应用内录音功能，PrivateWhisper 会请求访问你的麦克风权限。该权限仅用于在你的设备上录制音频以供后续本地转录使用。</p>
+
+          <h2>6. 文件访问权限</h2>
+          <p>如果你主动选择导入或导出文件，PrivateWhisper 会请求访问你明确选择的文件或文件位置。该权限仅用于完成你主动发起的导入、保存和导出操作。</p>
+
+          <h2>7. 数据共享</h2>
+          <p>我们不会出售、出租或主动向第三方共享你的音频内容、转录文本或编辑结果。</p>
+
+          <h2>8. 数据保留与删除</h2>
+          <p>你的数据由你自己控制并保存在本地设备中。你可以通过删除应用内历史记录、导出的文件，或删除应用在本地创建的数据文件来移除相关数据。</p>
+
+          <h2>9. 未成年人</h2>
+          <p>如果你是未成年人，请在监护人指导下使用本应用。</p>
+
+          <h2>10. 政策更新</h2>
+          <p>如果本隐私政策发生重大变更，我们会通过应用更新、代码仓库页面或产品相关页面发布更新版本。更新后的版本自公布之日起生效。</p>
+
+          <h2>11. 联系方式</h2>
+          <p>如果你对本隐私政策有任何问题，可以通过以下方式联系：</p>
+          <ul>
+            <li><a href="https://github.com/fandashi18/PrivateWhisper">GitHub 仓库</a></li>
+          </ul>
+        </section>
+
+        <div class="divider"></div>
+
+        <section id="en">
+          <h1>PrivateWhisper Privacy Policy</h1>
+          <p class="meta">Effective Date: 2026-03-28</p>
+
+          <p><strong>PrivateWhisper</strong> is a macOS app for local audio transcription. We value your privacy and aim to keep audio processing and transcription on your device whenever possible.</p>
+
+          <h2>1. Information We Collect</h2>
+          <p>PrivateWhisper does not require account registration and does not actively collect your name, phone number, email address, or other direct identifiers.</p>
+          <p>The app processes the following data locally on your device:</p>
+          <ul>
+            <li>Audio files you choose to import or record</li>
+            <li>Transcription text generated by the app</li>
+            <li>Text content you edit after transcription</li>
+            <li>Limited local preferences such as selected model, language, and display settings</li>
+          </ul>
+
+          <h2>2. How We Use Information</h2>
+          <p>This information is used only to provide the app's core features, including recording audio, importing files, performing speech-to-text on your device, displaying and editing transcripts, exporting results, and saving your local preferences and history.</p>
+
+          <h2>3. Where Data Is Stored</h2>
+          <p>PrivateWhisper is designed with a local-first approach. Your audio files, transcription results, app database, and model cache are stored on your Mac by default rather than uploaded to our servers.</p>
+
+          <h2>4. Network Access</h2>
+          <p>PrivateWhisper may access the network in the following situation:</p>
+          <ul>
+            <li>To download or update speech recognition model files</li>
+          </ul>
+          <p>Other than model-related downloads, the app does not use cloud services as the default path for processing or uploading your recordings or transcription text.</p>
+          <p>Please note that if model files are distributed by a third-party source, related network requests may be handled by that provider and subject to its own policies.</p>
+
+          <h2>5. Microphone Access</h2>
+          <p>If you use in-app recording, PrivateWhisper requests access to your microphone. This permission is used only to record audio on your device for later local transcription.</p>
+
+          <h2>6. File Access</h2>
+          <p>If you choose to import or export files, PrivateWhisper requests access only to the files or locations you explicitly select. This permission is used solely to complete the import, save, and export actions you initiate.</p>
+
+          <h2>7. Data Sharing</h2>
+          <p>We do not sell, rent, or proactively share your audio content, transcription text, or edited results with third parties.</p>
+
+          <h2>8. Retention and Deletion</h2>
+          <p>Your data remains under your control and is stored locally on your device. You can remove related data by deleting in-app history, exported files, or local data files created by the app.</p>
+
+          <h2>9. Children</h2>
+          <p>If you are a minor, please use the app under the guidance of a parent or legal guardian.</p>
+
+          <h2>10. Policy Updates</h2>
+          <p>If this Privacy Policy changes materially, we may publish an updated version through an app update, the code repository page, or related product pages. The updated version becomes effective on the date it is posted.</p>
+
+          <h2>11. Contact</h2>
+          <p>If you have any questions about this Privacy Policy, you may contact us through:</p>
+          <ul>
+            <li><a href="https://github.com/fandashi18/PrivateWhisper">GitHub repository</a></li>
+          </ul>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
