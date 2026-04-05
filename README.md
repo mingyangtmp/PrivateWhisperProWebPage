@@ -1,6 +1,6 @@
-PrivateWhisper Pro GitHub Pages site.
+Private Scribe Pro GitHub Pages site.
 
-This repository publishes a static website for the PrivateWhisper Pro product, including:
+This repository publishes a static website for the Private Scribe Pro product, including:
 
 - landing page
 - privacy policy
